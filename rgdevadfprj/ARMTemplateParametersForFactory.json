@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "rgdevadfprj"
+		},
+		"DS_SQLSERVER_TBLLKUP_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_TBLLKUP_password": {
+			"value": ""
+		},
+		"LS_SQLTABLE_Parquet_accountKey": {
+			"value": ""
+		},
+		"LS_SqlTable_Parquet1_accountKey": {
+			"value": ""
+		},
+		"DS_SQLSERVER_TBLLKUP_properties_typeProperties_server": {
+			"value": "DESKTOP-BABP6QH"
+		},
+		"DS_SQLSERVER_TBLLKUP_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"DS_SQLSERVER_TBLLKUP_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_server": {
+			"value": "DESKTOP-BABP6QH"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"LS_SQLTABLE_Parquet_properties_typeProperties_url": {
+			"value": "https://rgdevadlsstorage.dfs.core.windows.net/"
+		},
+		"LS_SqlTable_Parquet1_properties_typeProperties_url": {
+			"value": "https://rgdevadlsstorage.dfs.core.windows.net/"
+		}
+	}
+}
