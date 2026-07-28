@@ -1,0 +1,15 @@
+{
+	"name": "rgdevadfprj",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38b2e001-8e0c-441e-a434-6d60890240af",
+		"tenantId": "18da87c0-03c5-4906-8080-b07f43999d3d"
+	}
+}
